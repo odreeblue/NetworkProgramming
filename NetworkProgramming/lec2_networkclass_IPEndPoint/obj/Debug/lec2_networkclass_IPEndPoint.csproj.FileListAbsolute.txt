@@ -1,0 +1,7 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPEndPoint\bin\Debug\lec2_networkclass_IPEndPoint.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPEndPoint\bin\Debug\lec2_networkclass_IPEndPoint.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPEndPoint\bin\Debug\lec2_networkclass_IPEndPoint.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPEndPoint\obj\Debug\lec2_networkclass_IPEndPoint.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPEndPoint\obj\Debug\lec2_networkclass_IPEndPoint.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPEndPoint\obj\Debug\lec2_networkclass_IPEndPoint.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPEndPoint\obj\Debug\lec2_networkclass_IPEndPoint.pdb

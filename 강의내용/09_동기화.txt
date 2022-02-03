@@ -1,0 +1,60 @@
+목차
+-개요
+-lock
+-Monitor
+-Mutex
+-정리
+
+1. 기본개념
+    1) 동기화란?
+        : 작업들 사이의 수행시기를 맞추는 것
+        -> 다수의 스레드가 동시에 공유 자원을 사용할 때 "순서"를 정하는 것
+
+        resource        Thread
+                    thread      thread
+    2) 동기화 대상
+        - 공유 자원에 대한 접근이 예상되는 스레드
+                ||
+                \/
+        - 한 객체를 다수의 스레드가 사용되는 때
+
+2. lock
+    1) 기본형식
+        - private object obj = new object();
+        lock(obj)
+        {
+            임계(경계)영역 (Critical section)
+        }
+        # 실제 컴파일하면 아래와 같다
+        System.Threading.Monitor.Enter(obj)
+        try
+        {
+            ....
+        }
+        finally{
+            System.Threading.Monitor.Exit(obj);
+        }
+    2) 주의할 점
+        - lock(this)
+        - lock(typeof(클래스명))
+        || 
+        \/ # 아래와 같이 사용할 것
+        private object obj = new object();
+        lock(obj)
+        {
+            임계(경계)영역 (Critical section)
+        }
+3. Monitor
+    1) 구성
+        - 클래스
+        public static class Monitor
+        - 동기화 진입과 해제 메서드
+        public static void Enter(object obj) //잠그고자하는 객체를 명시
+        public static Exit(object obj)
+4. Mutex
+    1) 구성
+        - 클래스
+        public sealed class Mutex : WaitHandle // 상속불가
+        - 동기화 진입과 해제 메서드
+        public virtual bool WaitOne()
+        public void ReleaseMutex()

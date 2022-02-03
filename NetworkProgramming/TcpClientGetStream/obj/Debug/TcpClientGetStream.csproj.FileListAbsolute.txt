@@ -1,0 +1,7 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClientGetStream\bin\Debug\TcpClientGetStream.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClientGetStream\bin\Debug\TcpClientGetStream.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClientGetStream\bin\Debug\TcpClientGetStream.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClientGetStream\obj\Debug\TcpClientGetStream.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClientGetStream\obj\Debug\TcpClientGetStream.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClientGetStream\obj\Debug\TcpClientGetStream.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClientGetStream\obj\Debug\TcpClientGetStream.pdb

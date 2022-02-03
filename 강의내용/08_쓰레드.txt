@@ -1,0 +1,59 @@
+<<프로세스와 쓰레드>>
+- 스레드는 운영체제의 자원이며 프로그램 안에서 독립적으로 실행할 수 있는 것
+  (멀티테스킹 운영체제)
+- 프로그램의 구성?
+- 프로세스? (메모리 개념)
+    운영체제로부터 할당 받은 메모리에 코드와 데이터를 저장 및 CPU를 할당 받아 실행 가능한 상태
+- 스레드? (실행 개념)
+    프로세스를 할당 받고 코드를 실행
+- 스레드는 언제 실행되는가?
+    * 프로그램 실행(Main) --> 주스레드, 메인스레드
+    * 코드에 의해(Thread)
+- 스레드에 의해 실행되는 함수는 몇번 실행되는가?
+- 스레드 함수의 반복 처리?
+
+<<스레드 함수의 호출 구조>>
+1. 호출구조
+   
+   Thread <------ThreadStart <-------Call Function
+                  [delegate]
+    1) 스레드 함수를 구현
+    2) 델리게이트 생성과 스레드 함수 설정
+    3) 스레드 생성
+    4) 스레드 실행
+2. 스레드 코드
+    - using System.Threading
+    - delegate 생성과 설정
+        public delegate void ThreadStart()
+        
+    ---->   public void func()
+            { ... }
+            ThreadStart thStart = new ThreadStard(func);
+    - 매개변수를 참조할 수 있는 스레드 호출 함수
+        public delegate void ParameterizedThreadStart(Object obj)
+    ----> Thread.Start(매개변수)
+
+<<쓰레드 주요 속성과 메서드>>
+1. 스레드 속성
+    -Name
+    -IsAlive
+    -IsBackground
+        public bool IsBackground{get; set;}
+
+        * foreground?
+            - 주스레드와 상관없이 독립적으로 돌아가는 스레드 
+        * background?
+            - 주스레드가 종료되면 같이 종료되는 스레드
+    -CurrentThread
+        public static Thread CurrentThread{get;}
+        //보통 id를 얻기위한 방법으로 사용
+
+2. 스레드 메서드
+    - Start() : 스레드 시작
+    - Join() : 스레드가 종료될 때까지 대기
+    - Abort() : 이 함수를 호출한 곳의 현재 스레드를 중지
+                ThreadAbortException 예외 발생
+
+
+<<윈도우 네트워크 프로그래밍에 스레드 적용>>
+1. 서버 코드 안에서 스레드의 대상?

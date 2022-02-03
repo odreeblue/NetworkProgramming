@@ -1,0 +1,67 @@
+네트워크 연결클래스
+1. 구분
+    TCP                             UDP            --\  Socket 기반
+    [TcpListener,TcpClient]         [UdpClient]    --/  (Winsock)
+
+    TcpListener -> 서버 , TcpClient -> 서버&클라이언트
+    UdpClient -> 서비스& 클라이언트
+
+2. namespace 선언
+    using System.Net.Sockets
+
+
+<<TCP-TcpListener/TcpClient>>
+: 주로 초점을 두길 바람
+
+1.TcpListener
+    1) 서버와 클라이언트를 구분할 수 있는 클래스
+        --> 클라이언트 연결을 대기(대기상태)
+        (1) 대기상태 
+                    서버
+                    /\ /\
+                    |   |
+        (2) 접속요청 |  |    (3)데이터 전송
+                    \/   
+                    클라이언트 
+
+    2) 역할 
+        - 클라이언트 연결 대기
+        - TcpClient 생성
+            서버 [TcpListener]                       클라이언트
+            TcpClient    <---------------------->   TcpClient
+            TcpClient    <---------------------->   TcpClient
+            TcpClient    <---------------------->   TcpClient
+    3) 생성자
+        서버ip 주소와 포트번호 설정
+        public TcpListener(IPAddress localaddr,int Port) //IPAddress.Parse("ip주소"); 적용
+        public TcpListener(IPEndPoint localEP) // 이 형태 자주 사용
+    4) TcpListener.Start() 와 TcpListener.Stop()
+        TcpListener 대기상태 시작과 정지
+        TcpListener.AcceptTcpClient() 이전 실행
+    5) TcpListener.AcceptTcpClient()
+        클라이언트 요청 대기 및 TcpClient 생성 --> 연결 수락
+        [대기 상태] 부분까지임
+
+2. TcpClient
+    1) 특징 : 서버와 클라이언트 모두 사용
+    2) 역할 : 서버와 클라이언트 연결 및 요청
+    3) TcpClient 생성자
+        ip주소와 포트설정 --> 연결 통로 설정
+        public TcpClient(string hostname, int port)
+
+    4) 생성자 외의 연결 요청 메서드
+        public void Connect(IPAddress address, int port)
+        public void Connect(IPAddress[] ipAddresses, int port)
+        public void Connect(IPEndPoint remoteEP)
+        public void Connect(string hostname, int port)
+    5) 연결해제
+        TcpClient.Close()
+    6) 데이터 전송 스트림
+        TCP --> NetworkStream 사용
+            public NetworkStream GetStream()
+        서버 < -------------------> 클라이언트
+                [NetworkStream]
+                [byte 전송]
+        Encoding.ASCII.GetBytes()등 제공
+        NetworkStream.Read() /Write() 사용
+        

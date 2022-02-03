@@ -1,0 +1,8 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPHostEntry\bin\Debug\lec2_networkclass_IPHostEntry.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPHostEntry\bin\Debug\lec2_networkclass_IPHostEntry.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPHostEntry\bin\Debug\lec2_networkclass_IPHostEntry.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPHostEntry\obj\Debug\lec2_networkclass_IPHostEntry.csproj.AssemblyReference.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPHostEntry\obj\Debug\lec2_networkclass_IPHostEntry.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPHostEntry\obj\Debug\lec2_networkclass_IPHostEntry.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPHostEntry\obj\Debug\lec2_networkclass_IPHostEntry.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPHostEntry\obj\Debug\lec2_networkclass_IPHostEntry.pdb

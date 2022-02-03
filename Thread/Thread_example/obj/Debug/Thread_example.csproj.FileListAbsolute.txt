@@ -1,0 +1,8 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_example\bin\Debug\Thread_example.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_example\bin\Debug\Thread_example.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_example\bin\Debug\Thread_example.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_example\obj\Debug\Thread_example.csproj.AssemblyReference.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_example\obj\Debug\Thread_example.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_example\obj\Debug\Thread_example.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_example\obj\Debug\Thread_example.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_example\obj\Debug\Thread_example.pdb

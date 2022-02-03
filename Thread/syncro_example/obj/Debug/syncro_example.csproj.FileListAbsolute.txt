@@ -1,0 +1,8 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example\bin\Debug\syncro_example.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example\bin\Debug\syncro_example.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example\bin\Debug\syncro_example.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example\obj\Debug\syncro_example.csproj.AssemblyReference.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example\obj\Debug\syncro_example.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example\obj\Debug\syncro_example.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example\obj\Debug\syncro_example.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example\obj\Debug\syncro_example.pdb

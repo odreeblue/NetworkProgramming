@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dd1eb1eb-72a2-4585-b2d8-fccdb54603ea": {
+      "ProjectGuid": "dd1eb1eb-72a2-4585-b2d8-fccdb54603ea",
+      "DisplayName": "lec01_ConsolToWindow_Server",
+      "ColorIndex": 0
+    },
+    "e3a991a3-b0d6-4293-9fe5-231aad2edd1f": {
+      "ProjectGuid": "e3a991a3-b0d6-4293-9fe5-231aad2edd1f",
+      "DisplayName": "lec02_ConsolToWindow_Client",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

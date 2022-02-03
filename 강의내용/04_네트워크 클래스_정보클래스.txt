@@ -1,0 +1,66 @@
+목차
+- 네트워크 클래스 지도보기
+- 정보 클래스
+- 연결 클래스
+- 전송 클래스
+
+1. 네트워크 클래스 지도보기
+    1) 정보 클래스.."IP주소"
+        : IPAddress,Dns,IPHostEntry,IPEndPoint
+       ||
+       \/
+        2) 연결 클래스
+            : TcpListener, TcpClient, UdpClient
+            ||
+            \/
+            3) 전송 클래스
+                :NetworkStream, StreamWriter/StreamReader, BinaryWriter/BinaryReader
+
+2. 네트워크 정보 클래스 (구조체 정도의 수준)
+    1) IPAddress
+        - ip 주소 형식
+            ex) 127.0.0.1
+        - ip 주소의 실체
+            long 형 값(8byte)
+        - IPAddress 역할
+            ip주소 <-> long 형 변환
+        -public static IPAddress Parse(string ipString)
+            ipString -> "127.0.0.1" ip주소 설정
+        -public override string ToString()
+            내부 저장된 ip 주소 반환
+    2) Dns
+        -역할 : 도메인명과 ip 주소 관리
+            ex) www.nowcampus.co.kr , 121.254.178.250
+        -public static IPHostEntry GetHostEntry(IPAddress address //또는 String hostNameOrAddress)
+            address의 ip 주소로 도메인명 검색하여 저장
+        -public static IPAddress[] GetHostAddresses(string hostNameOrAddress)
+            도메인명으로 IP 주소 검색 및 저장
+        
+        * 하나의 도메인명에 여러개의 아이피를 가질수 있다.
+    3) IPHostEntry
+        - 역할: 도메인명과 ip주소를 저장하는 컨테이너
+        - Dns와 연결하여 사용
+            IPHostEntry HostInfo = Dns.GetHostEntry("www.naver.com");
+        -public IPAddress[] AddressList {get;set;}
+            다수의 ip 주소 저장 --> IPAddress
+        -public string HostName {get;set;}
+            호스트명을 설정 또는 얻기
+    4) IPEndPoint
+        - 역할: 목적지 ip주소와 포트번호를 저장
+        - ip주소와 port 번호 설정
+            public IPEndPoint(long address, int port)
+            public IPEndPoint(IPAddress addresss, int port)
+        - Address 속성
+            public IPAddress Address {get;set;}
+            목적지 ip 주소 설정
+        - port 속성
+            public int Port{get;set;}
+    
+**** 정리
+    - IPAddress, IPHostEntry, IPEndPoint, Dns는 클래스이지만 구조체 정도 수준
+    - 서로 연관됨
+                    IPAddress[ip]
+                    /    |      \
+                   /     |       \
+        IPHostEntry  IpEndPoint    Dns
+    [ip+hostName]      [ip+port]     [ip+domain]

@@ -1,0 +1,31 @@
+<<목차>>
+- 콘솔 서버 코드를 윈도우 서버 코드로 옮기기
+- 콘솔 클라이언트 코드를 윈도우 클라이언트 코드로 옮기기
+- 문제점 살펴보기
+
+<<폼디자인은 코드설계이다>>
+- 윈도우 프로그래밍 특징 : 이벤트에 따른 반응 논리
+- 폼 디자인은 코드량을 결정
+- 기능에 따라 폼 디자인과 컨트롤 수가 결정
+    서버 ip 출력, 접속 시작 버튼, 클라이언트 ip 주소 출력, 송수신 시작
+
+
+<<서버 ip 주소 출력>>
+1. 호스트명 알아내기
+    Dns.GetHostName()
+    public static string GetHostName()
+2. 호스트 정보 가져오기
+    Dns.GetHostEntry()
+    public static IPHostEntry GetHostEntry(string hostNameOrAddress)
+3. IPHostEntry는 컨테이너 클래스
+    IPHostEntry.AddressList 속성
+    public IPAddress[] AddressList {get; set;}
+             /\
+             ||
+             IPv4,IPv6
+4. 걸러내는 방법 제공
+    열거형 값을 구분 --> AddressFamily.InterNetwork
+
+<<데이터 전송순서와 반복문>>
+-무한루프의 문제점 : 다른 이벤트 처리를 할 수 없다
+-윈도우 프로그래밍에서 무한루프의 처리 방법 : 스레드 thread

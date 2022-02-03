@@ -1,0 +1,7 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example_monitor\bin\Debug\syncro_example_monitor.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example_monitor\bin\Debug\syncro_example_monitor.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example_monitor\bin\Debug\syncro_example_monitor.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example_monitor\obj\Debug\syncro_example_monitor.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example_monitor\obj\Debug\syncro_example_monitor.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example_monitor\obj\Debug\syncro_example_monitor.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\syncro_example_monitor\obj\Debug\syncro_example_monitor.pdb

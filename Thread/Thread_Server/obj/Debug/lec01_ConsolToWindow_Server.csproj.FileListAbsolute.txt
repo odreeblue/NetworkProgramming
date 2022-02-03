@@ -1,0 +1,11 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_Server\bin\Debug\lec01_ConsolToWindow.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_Server\bin\Debug\lec01_ConsolToWindow.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_Server\bin\Debug\lec01_ConsolToWindow.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_Server\obj\Debug\lec01_ConsolToWindow_Server.csproj.AssemblyReference.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_Server\obj\Debug\lec01_ConsolToWindow_Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_Server\obj\Debug\lec01_ConsolToWindow.Form1.resources
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_Server\obj\Debug\lec01_ConsolToWindow.Properties.Resources.resources
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_Server\obj\Debug\lec01_ConsolToWindow_Server.csproj.GenerateResource.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_Server\obj\Debug\lec01_ConsolToWindow_Server.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_Server\obj\Debug\lec01_ConsolToWindow.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\Thread\Thread_Server\obj\Debug\lec01_ConsolToWindow.pdb

@@ -1,0 +1,8 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\networkstreamServer\bin\Debug\networkstreamServer.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\networkstreamServer\bin\Debug\networkstreamServer.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\networkstreamServer\bin\Debug\networkstreamServer.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\networkstreamServer\obj\Debug\networkstreamServer.csproj.AssemblyReference.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\networkstreamServer\obj\Debug\networkstreamServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\networkstreamServer\obj\Debug\networkstreamServer.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\networkstreamServer\obj\Debug\networkstreamServer.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\networkstreamServer\obj\Debug\networkstreamServer.pdb

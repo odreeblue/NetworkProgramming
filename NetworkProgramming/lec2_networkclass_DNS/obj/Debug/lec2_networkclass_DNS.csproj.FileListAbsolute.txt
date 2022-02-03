@@ -1,0 +1,7 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_DNS\bin\Debug\lec2_networkclass_DNS.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_DNS\bin\Debug\lec2_networkclass_DNS.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_DNS\bin\Debug\lec2_networkclass_DNS.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_DNS\obj\Debug\lec2_networkclass_DNS.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_DNS\obj\Debug\lec2_networkclass_DNS.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_DNS\obj\Debug\lec2_networkclass_DNS.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_DNS\obj\Debug\lec2_networkclass_DNS.pdb

@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f1630ce1-6a8d-45e0-8c8f-72b811125f02": {
+      "ProjectGuid": "f1630ce1-6a8d-45e0-8c8f-72b811125f02",
+      "DisplayName": "lec2_networkclass_IPAddress",
+      "ColorIndex": 0
+    },
+    "50a97d1e-f0c9-47a1-ab8f-1603e660019c": {
+      "ProjectGuid": "50a97d1e-f0c9-47a1-ab8f-1603e660019c",
+      "DisplayName": "lec2_networkclass_DNS",
+      "ColorIndex": 1
+    },
+    "c82450a3-a9a0-4398-8403-77c7eed576b0": {
+      "ProjectGuid": "c82450a3-a9a0-4398-8403-77c7eed576b0",
+      "DisplayName": "lec2_networkclass_IPHostEntry",
+      "ColorIndex": 2
+    },
+    "26aa48cc-63e0-4c48-b405-e27a49b36276": {
+      "ProjectGuid": "26aa48cc-63e0-4c48-b405-e27a49b36276",
+      "DisplayName": "lec2_networkclass_IPEndPoint",
+      "ColorIndex": 3
+    },
+    "6c282c92-fdd9-4bec-b9af-b323c3dda5c6": {
+      "ProjectGuid": "6c282c92-fdd9-4bec-b9af-b323c3dda5c6",
+      "DisplayName": "lec2_networkclass_TcpListener",
+      "ColorIndex": 4
+    },
+    "2ad9200c-3e4f-4b13-8b76-9bef0a4cf553": {
+      "ProjectGuid": "2ad9200c-3e4f-4b13-8b76-9bef0a4cf553",
+      "DisplayName": "AcceptTcpClient",
+      "ColorIndex": 5
+    },
+    "a49d5df6-9991-451c-bba6-cf0ebb8d8e74": {
+      "ProjectGuid": "a49d5df6-9991-451c-bba6-cf0ebb8d8e74",
+      "DisplayName": "TcpClient",
+      "ColorIndex": 6
+    },
+    "4297bbb3-e77b-4012-9d9f-41c30622d599": {
+      "ProjectGuid": "4297bbb3-e77b-4012-9d9f-41c30622d599",
+      "DisplayName": "networkstreamServer",
+      "ColorIndex": 7
+    },
+    "f9bbc960-d1bf-497a-8b47-0b99dca8b987": {
+      "ProjectGuid": "f9bbc960-d1bf-497a-8b47-0b99dca8b987",
+      "DisplayName": "TcpClientGetStream",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}

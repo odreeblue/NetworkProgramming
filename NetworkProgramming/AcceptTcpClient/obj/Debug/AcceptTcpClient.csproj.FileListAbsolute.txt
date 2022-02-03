@@ -1,0 +1,7 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\AcceptTcpClient\obj\Debug\AcceptTcpClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\AcceptTcpClient\obj\Debug\AcceptTcpClient.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\AcceptTcpClient\bin\Debug\AcceptTcpClient.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\AcceptTcpClient\bin\Debug\AcceptTcpClient.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\AcceptTcpClient\bin\Debug\AcceptTcpClient.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\AcceptTcpClient\obj\Debug\AcceptTcpClient.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\AcceptTcpClient\obj\Debug\AcceptTcpClient.pdb

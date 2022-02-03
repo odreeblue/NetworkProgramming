@@ -1,0 +1,7 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClient\obj\Debug\TcpClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClient\obj\Debug\TcpClient.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClient\bin\Debug\TcpClient.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClient\bin\Debug\TcpClient.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClient\bin\Debug\TcpClient.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClient\obj\Debug\TcpClient.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\TcpClient\obj\Debug\TcpClient.pdb

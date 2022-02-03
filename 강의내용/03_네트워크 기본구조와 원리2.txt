@@ -1,0 +1,22 @@
+1. TCP서버의 기본구조
+    1) 대기상태(서버프로그램)
+            
+    2) 접속요청
+
+    3) 데이터 전송
+    
+2. TCP서버와 클래스
+    1) TcpListener :연결과 TcpClient 객체 생성
+    2) TcpClient : 데이터 전송
+        - NetworkStream
+3. TCP서버와 클래스 관계
+    1) 대기상태(TcpListener),서버프로그램
+        쓰레드 ... Stream.Write, Stream.Read ... 여러가지 개념이 있음
+    2) 접속요청(TCP)
+
+4. UDP 서버와 클라이언트
+    1) 기본적인 것은 TCP와 동일
+    2) 비연결형 : IP주소와 port번호를 알면 데이터 전송 가능
+    3) UdpClient : 서버와 클라이언트 모두 사용
+    4) 그룹 처리 : UdpClient.JoinMulticast() 사용
+    

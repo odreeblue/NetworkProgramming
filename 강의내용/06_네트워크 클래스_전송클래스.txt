@@ -1,0 +1,27 @@
+네트워크 전송 클래스
+- NetworkStream
+- StreamReader/StreamWriter
+- BinaryReader/BinaryWriter
+
+
+1. NetworkStream
+    -역할 : TCP 연결에서 데이터 송수신 스트림
+    - 스트림에 데이터 쓰기
+        public override void Write(byte[] buffer, int offset, int size)
+    - 스트림에 데이터 읽기
+        public override int Read(byte[] buffer, int offset, int size)
+        리턴 값: 읽은 바이트 수, 0이면 읽을 데이터가 없음
+    - NetworkStream.CanRead
+      NetworkStream.CanWrite
+        스트림에 데이터를 읽고 쓸수 있는지 확인
+            public override bool CanRead {get;}
+            public override bool CanWrite {get;}
+                리턴값: true, false
+    - 에제 소스 있지만 안해봤음.
+2. StreamReader/StreamWriter
+    - 내용 있지만 안적음
+    - 예제 소스 있지만 안해봤음
+
+3. BinaryReader/BinaryWriter
+
+        

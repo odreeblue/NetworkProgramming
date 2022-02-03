@@ -1,0 +1,8 @@
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPAddress\bin\Debug\lec2_networkclass_IPAddress.exe.config
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPAddress\bin\Debug\lec2_networkclass_IPAddress.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPAddress\bin\Debug\lec2_networkclass_IPAddress.pdb
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPAddress\obj\Debug\lec2_networkclass_IPAddress.csproj.AssemblyReference.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPAddress\obj\Debug\lec2_networkclass_IPAddress.csproj.SuggestedBindingRedirects.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPAddress\obj\Debug\lec2_networkclass_IPAddress.csproj.CoreCompileInputs.cache
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPAddress\obj\Debug\lec2_networkclass_IPAddress.exe
+C:\Users\XINNOS\Desktop\NetworkProgramming\NetworkProgramming\lec2_networkclass_IPAddress\obj\Debug\lec2_networkclass_IPAddress.pdb
